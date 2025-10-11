@@ -1,0 +1,12 @@
+sqlalchemy
+google-generative-ai
+neo4j
+gremlinpython
+fastapi
+uvicorn
+python-dotenv
+requests
+boto3
+numpy
+# Optional for local vector indexing (install when needed)
+faiss-cpu
