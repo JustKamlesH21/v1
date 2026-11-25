@@ -29,6 +29,12 @@ It is an early prototype: the pieces exist and are unit-tested with stubs, but t
 
 If the Gemini SDK or credentials are missing, `llm_adapter.py` returns deterministic stub output, and the graph drivers fall back to stubs too. That keeps the tests runnable on any machine.
 
+## Architecture
+
+<p align="center">
+  <picture><source media="(max-width: 767px)" srcset="assets/readme/architecture-m.svg"><img src="assets/readme/architecture.svg" width="100%" alt="Architecture. source: Relational DB; build: Schema parser, Ontology, Graph populator; store: Neo4j / Neptune, Vector store; serve: Query agent, FastAPI"></picture>
+</p>
+
 ## Quick start
 
 The code lives in [`Desktop/Random/graphrag-transformation/`](Desktop/Random/graphrag-transformation/).
