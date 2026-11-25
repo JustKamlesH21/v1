@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/readme/banner.svg" width="100%" alt="Relational DB to GraphRAG: turns a relational database into a knowledge graph, so an LLM can answer questions that hop across tables.">
+  <picture><source media="(max-width: 767px)" srcset="assets/readme/banner-m.svg"><img src="assets/readme/banner.svg" width="100%" alt="Relational DB to GraphRAG: turns a relational database into a knowledge graph, so an LLM can answer questions that hop across tables."></picture>
 </p>
 
 <p align="center">
@@ -15,7 +15,7 @@ It is an early prototype: the pieces exist and are unit-tested with stubs, but t
 ## How it works
 
 <p align="center">
-  <img src="assets/readme/how-it-works.svg" width="100%" alt="How it works: relational database, schema parser, LLM ontology, graph in Neo4j or Neptune, query agent that routes to vector, graph or filter, FastAPI retrieval server.">
+  <picture><source media="(max-width: 767px)" srcset="assets/readme/how-it-works-m.svg"><img src="assets/readme/how-it-works.svg" width="100%" alt="How it works: relational database, schema parser, LLM ontology, graph in Neo4j or Neptune, query agent that routes to vector, graph or filter, FastAPI retrieval server."></picture>
 </p>
 
 | Stage | Code | What it does |
@@ -57,5 +57,5 @@ There is no `requirements.txt` yet. The modules import `fastapi`, `uvicorn`, `sq
 No license file has been added yet, so default copyright applies.
 
 <p align="center">
-  <a href="https://github.com/JustKamlesH21"><img src="assets/readme/footer.svg" width="100%" alt="Part of Kamlesh OS. More projects on github.com/JustKamlesH21"></a>
+  <a href="https://github.com/JustKamlesH21"><picture><source media="(max-width: 767px)" srcset="assets/readme/footer-m.svg"><img src="assets/readme/footer.svg" width="100%" alt="Part of Kamlesh OS. More projects on github.com/JustKamlesH21"></picture></a>
 </p>
