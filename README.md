@@ -1,5 +1,5 @@
 <p align="center">
-  <picture><source media="(max-width: 767px)" srcset="assets/readme/banner-m.svg"><img src="assets/readme/banner.svg" width="100%" alt="Relational DB to GraphRAG: turns a relational database into a knowledge graph, so an LLM can answer questions that hop across tables."></picture>
+  <picture><source media="(max-width: 767px)" srcset="assets/readme/banner-m.png"><img src="assets/readme/banner.svg" width="100%" alt="Relational DB to GraphRAG: turns a relational database into a knowledge graph, so an LLM can answer questions that hop across tables."></picture>
 </p>
 
 <p align="center">
@@ -13,13 +13,13 @@ Vector search over rows is good at "find something like this" and bad at "which 
 It is an early prototype: the pieces exist and are unit-tested with stubs, but there is no end-to-end demo dataset yet.
 
 <p align="center">
-  <picture><source media="(max-width: 767px)" srcset="assets/readme/glance-m.svg"><img src="assets/readme/glance.svg" width="100%" alt="At a glance. Built: Oct 2025; Stack: Gemini · Neo4j · FastAPI; Status: Prototype, 8 of 9 tests pass"></picture>
+  <picture><source media="(max-width: 767px)" srcset="assets/readme/glance-m.png"><img src="assets/readme/glance.svg" width="100%" alt="At a glance. Built: Oct 2025; Stack: Gemini · Neo4j · FastAPI; Status: Prototype, 8 of 9 tests pass"></picture>
 </p>
 
 ## How it works
 
 <p align="center">
-  <picture><source media="(max-width: 767px)" srcset="assets/readme/how-it-works-m.svg"><img src="assets/readme/how-it-works.svg" width="100%" alt="How it works: relational database, schema parser, LLM ontology, graph in Neo4j or Neptune, query agent that routes to vector, graph or filter, FastAPI retrieval server."></picture>
+  <picture><source media="(max-width: 767px)" srcset="assets/readme/how-it-works-m.png"><img src="assets/readme/how-it-works.svg" width="100%" alt="How it works: relational database, schema parser, LLM ontology, graph in Neo4j or Neptune, query agent that routes to vector, graph or filter, FastAPI retrieval server."></picture>
 </p>
 
 | Stage | Code | What it does |
@@ -36,7 +36,7 @@ If the Gemini SDK or credentials are missing, `llm_adapter.py` returns determini
 ## Architecture
 
 <p align="center">
-  <picture><source media="(max-width: 767px)" srcset="assets/readme/architecture-m.svg"><img src="assets/readme/architecture.svg" width="100%" alt="Architecture. source: Relational DB; build: Schema parser, Ontology, Graph populator; store: Neo4j / Neptune, Vector store; serve: Query agent, FastAPI"></picture>
+  <picture><source media="(max-width: 767px)" srcset="assets/readme/architecture-m.png"><img src="assets/readme/architecture.svg" width="100%" alt="Architecture. source: Relational DB; build: Schema parser, Ontology, Graph populator; store: Neo4j / Neptune, Vector store; serve: Query agent, FastAPI"></picture>
 </p>
 
 ## Quick start
@@ -67,5 +67,5 @@ There is no `requirements.txt` yet. The modules import `fastapi`, `uvicorn`, `sq
 No license file has been added yet, so default copyright applies.
 
 <p align="center">
-  <a href="https://github.com/JustKamlesH21"><picture><source media="(max-width: 767px)" srcset="assets/readme/footer-m.svg"><img src="assets/readme/footer.svg" width="100%" alt="Part of Kamlesh OS. More projects on github.com/JustKamlesH21"></picture></a>
+  <a href="https://github.com/JustKamlesH21"><picture><source media="(max-width: 767px)" srcset="assets/readme/footer-m.png"><img src="assets/readme/footer.svg" width="100%" alt="Part of Kamlesh OS. More projects on github.com/JustKamlesH21"></picture></a>
 </p>
