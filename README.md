@@ -12,6 +12,10 @@ Vector search over rows is good at "find something like this" and bad at "which 
 
 It is an early prototype: the pieces exist and are unit-tested with stubs, but there is no end-to-end demo dataset yet.
 
+<p align="center">
+  <picture><source media="(max-width: 767px)" srcset="assets/readme/glance-m.svg"><img src="assets/readme/glance.svg" width="100%" alt="At a glance. Built: Oct 2025; Stack: Gemini · Neo4j · FastAPI; Status: Prototype, 8 of 9 tests pass"></picture>
+</p>
+
 ## How it works
 
 <p align="center">
